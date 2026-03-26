@@ -48,6 +48,7 @@
     "zustand": "^4.1.1"
   },
   "scripts": {
+    "preinstall": "printenv",
     "start": "vite",
     "dev": "vite",
     "gen:sources": "rimraf src/generated-sources && openapi-generator-cli generate",
